@@ -1,9 +1,9 @@
 import argparse
 import inspect
 
-from . import gaussian_diffusion as gd
-from .respace import SpacedDiffusion, space_timesteps
-from .unet import SuperResModel, UNetModel
+from ants.libs.improved_diffusion.improved_diffusion import gaussian_diffusion as gd
+from ants.libs.improved_diffusion.improved_diffusion.respace import SpacedDiffusion, space_timesteps
+from ants.libs.improved_diffusion.improved_diffusion.unet import SuperResModel, UNetModel
 
 NUM_CLASSES = 1000
 

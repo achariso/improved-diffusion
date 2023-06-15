@@ -3,6 +3,7 @@ Helpers to train with 16-bit precision.
 """
 
 import torch.nn as nn
+# noinspection PyProtectedMember
 from torch._utils import _flatten_dense_tensors, _unflatten_dense_tensors
 
 

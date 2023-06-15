@@ -11,8 +11,8 @@ import math
 import numpy as np
 import torch as th
 
-from .nn import mean_flat
-from .losses import normal_kl, discretized_gaussian_log_likelihood
+from ants.libs.improved_diffusion.improved_diffusion.nn import mean_flat
+from ants.libs.improved_diffusion.improved_diffusion.losses import normal_kl, discretized_gaussian_log_likelihood
 
 
 def get_named_beta_schedule(schedule_name, num_diffusion_timesteps):
